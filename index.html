@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>ac-music-app</title>
+    <link rel='shortcut icon' href='#' />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div id='title-wrapper'>
+        <h1>ANIMAL CROSSING MUSIC MACHINE</h1>
+    </div>
+    <div id='body-wrapper'>
+        <div id='body-left'>
+            <h3>Choose game:</h3>
+            <div>
+                <input type='radio' id='Animal Crossing' name='game' value='ac/'>
+                <label for='gameChoice1'>Animal Crossing</label><br>
+                <input type='radio' id='City Folk' name='game' value='cf/'>
+                <label for='gameChoice2'>City Folk</label><br>
+                <input type='radio' id='New Leaf' name='game' value='nl/'>
+                <label for='gameChoice3'>New Leaf</label><br>
+                <input type='radio' id='New Horizons' name='game' value='nh/' checked>
+                <label for='gameChoice3'>New Horizons</label>
+            </div>
+            <h3>Choose weather:</h3>
+            <div>
+                <input type='radio' id='weatherChoice1' name='weather' value='sun/'>
+                <label for='weatherChoice1'>Sun</label><br>
+                <input type='radio' id='weatherChoice2' name='weather' value='rain/'>
+                <label for='weatherChoice2'>Rain</label><br>
+                <input type='radio' id='weatherChoice3' name='weather' value='snow/' checked>
+                <label for='weatherChoice3'>Snow</label>
+            </div>
+        </div>
+        <div id='body-right'></div>
+    </div>
+    <div id='footer-wrapper'>
+        <p>not associated with nintendo</p>
+        <p>designed and developed by corey clay</p>
+        <a href="/contact.html">Contact</a>
+
+    </div>
+    <script src="/scripts/audioObj.js"></script>
+</body>
+
+</html>
